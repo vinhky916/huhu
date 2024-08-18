@@ -16,7 +16,7 @@ body {
 
 
 header {
-    background-image: url(images/a2.jpg); 
+    background-image: url('images/a2.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
