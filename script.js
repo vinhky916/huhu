@@ -1,4 +1,4 @@
-// Hiệu ứng cuộn mượt mà
+// Hiệu ứng cuộn 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         e.preventDefault();
@@ -9,7 +9,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Hiệu ứng hoạt ảnh cho các phần tử khi cuộn trang
+// Hiệu ứng hoạt ảnh 
 const elements = document.querySelectorAll('.fade-in, .slide-in, .zoom-in');
 
 function handleScroll() {
@@ -27,9 +27,9 @@ function handleScroll() {
 }
 
 window.addEventListener('scroll', handleScroll);
-handleScroll(); // Đảm bảo hiệu ứng hoạt động ngay từ đầu
+handleScroll(); 
 
-// Menu điều hướng - thay đổi màu khi cuộn đến phần tử
+// Menu điều hướng 
 const navLinks = document.querySelectorAll('.nav-links a');
 const sections = document.querySelectorAll('section');
 
